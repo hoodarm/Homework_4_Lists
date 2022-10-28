@@ -16,10 +16,10 @@ public class Main {
         fourth.add(2);
         input.add(first);input.add(second);input.add(third);input.add(fourth);
 
-        //Printing original list
+        //Printing original parent list
         System.out.println(input);
 
-        //Printing modified list
+        //Printing modified parent list
         System.out.println(flatten(input));
 
         //Checking if original component lists are emptied
